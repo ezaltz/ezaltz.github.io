@@ -61,9 +61,10 @@ html.othertagname tw-passage {
    /* Your CSS Here */
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="My Story" tags="" position="476,77" size="100,100">This game is about a trans individual&#39;s journey. I myself have not gone through this experience but I am writing in reaction to research done for a paper. This game illustrates one person&#39;s journey and the goal is to understand one perspective and one experience. The goal is not to display that everyone&#39;s experience is similar to this one. If you have gone through your own journey, I encourage you to learn about someone else&#39;s story but understand your journey is important as well and is okay to be different from this one.  
 
-[[got it]]</tw-passagedata><tw-passagedata pid="2" name="Startup" tags="startup" position="810,267" size="100,100">(set: $takeit to false)
+[[got it]]</tw-passagedata><tw-passagedata pid="2" name="Startup" tags="startup" position="809,267" size="100,100">(set: $takeit to false)
 (set: $wait to false)
-(set: $call to false)</tw-passagedata><tw-passagedata pid="3" name="lets begin" tags="" position="318,292" size="100,100">This is my story. The story of me Daniel previously referred to as Danielle. In 1998 I was born, assigned female at birth, to my loving mother and father. 4 years later I lost my mother to cancer and it was just my father and I. In middle school I started feeling not comfortable with myself and by high school I began to feel that I was stuck in a female body. My junior year is when I began my transition to male. But, I couldn&#39;t tell my father, he was strict and conservative. While he was so loving and caring I knew this was something he would just be &lt;span class=&quot;emphasis&quot;&gt;mean&lt;/span&gt; about. When I was 18, the week after I graduated high school, I told him. He had nothing to say, he didn&#39;t even know how to react. He let me continue to live at home but I felt so unaccepted, so I decided to run away. Now let me begin my journey as a trans-man.
+(set: $call to false)
+(set: $group to false)</tw-passagedata><tw-passagedata pid="3" name="lets begin" tags="" position="318,292" size="100,100">This is my story. The story of me Daniel previously referred to as Danielle. In 1998 I was born, assigned female at birth, to my loving mother and father. 4 years later I lost my mother to cancer and it was just my father and I. In middle school I started feeling not comfortable with myself and by high school I began to feel that I was stuck in a female body. My junior year is when I began my transition to male. But, I couldn&#39;t tell my father, he was strict and conservative. While he was so loving and caring I knew this was something he would just be &lt;span class=&quot;emphasis&quot;&gt;mean&lt;/span&gt; about. When I was 18, the week after I graduated high school, I told him. He had nothing to say, he didn&#39;t even know how to react. He let me continue to live at home but I felt so unaccepted, so I decided to run away. Now let me begin my journey as a trans-man.
 [[run away]]
 </tw-passagedata><tw-passagedata pid="4" name="run away" tags="" position="283,497" size="100,100">This decision wasn&#39;t impulsive. I thought about and planned for it but it didn&#39;t feel so planned the right thing to do right now. But I made this decision and I am determined to stick with it. The first thing I have to do is go see the apartment I researched. 
 [[go see it]]</tw-passagedata><tw-passagedata pid="5" name="go see it" tags="" position="290,634" size="100,100">Wow not what I expected! I knew it was gonna be small but wow it&#39;s a tiny studio apartment. I can&#39;t sleep on the street tonight but the realtor says she has another place to look at that&#39;s a bit more expensive. 
@@ -96,12 +97,10 @@ Thank you for your help!
 &lt;img src=&quot;https://images.unsplash.com/photo-1489630114164-dbd774c5a337?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80&quot;(Images/apt.jpg) alt=&quot;Dark Bedroom Image&quot; height=&quot;350&quot; width=&quot;350&quot;&gt;
 
 [[go find that job]]
-[[go meet people]]</tw-passagedata><tw-passagedata pid="11" name="go find that job" tags="" position="205,1401" size="100,100">On the way up to apartment I saw a sign &lt;div class=&quot;psg1&quot;&gt;Help Wanted.&lt;/div&gt;  
+[[go meet people]]</tw-passagedata><tw-passagedata pid="11" name="go find that job" tags="" position="176,1417" size="100,100">On the way up to apartment I saw a sign &lt;div class=&quot;psg1&quot;&gt;Help Wanted.&lt;/div&gt;  
 on the pet store so I guess I should go check that out. 
 
-[[go to pet store]]</tw-passagedata><tw-passagedata pid="12" name="meet people" tags="" position="381,1632" size="100,100">Hmm I don&#39;t know anyone. I used to live outside the city so all my old friends are out there. Maybe I should look for a support group I heard about one from my friend back home that they found it so helpful 
-
-[[look for support group]]</tw-passagedata><tw-passagedata pid="13" name="go to pet store" tags="" position="195,1565" size="100,100">Hi I&#39;m Daniel and I saw your sign on the window for help I brought a copy of my resume 
+[[go to pet store]]</tw-passagedata><tw-passagedata pid="12" name="meet people" tags="" position="40,2083" size="100,100">Well since I dont know anyone maybe I should look into the (link:&quot;support group&quot;)[(if: $group is true)[[check out the group I already found]](else:)[[find one]]]</tw-passagedata><tw-passagedata pid="13" name="go to pet store" tags="" position="195,1565" size="100,100">Hi I&#39;m Daniel and I saw your sign on the window for help I brought a copy of my resume 
 
 &quot;Hi Daniel thank you are manager is actually in today so let me go bring this back to him&quot;
 
@@ -123,18 +122,18 @@ I&#39;m so happy! Now I can look at meeting people.
 [[check it out tomorrow]]</tw-passagedata><tw-passagedata pid="18" name="check it out tomorrow" tags="" position="740,1692" size="100,100">I&#39;m kinda nervous I&#39;m not sure what it&#39;s gonna be like maybe I shouldn&#39;t go
 
 [[go you already decided don&#39;t change your mind]]
-[[Nah I can&#39;t I&#39;m not ready for this]]</tw-passagedata><tw-passagedata pid="19" name="go you already decided don&#39;t change your mind" tags="" position="770,2070" size="100,100">Okay I&#39;m going today&#39;s the day! 
+[[Nah I can&#39;t I&#39;m not ready for this]]</tw-passagedata><tw-passagedata pid="19" name="go you already decided don&#39;t change your mind" tags="" position="841,1940" size="100,100">Okay I&#39;m going today&#39;s the day! 
 
 [[go to community centre]]</tw-passagedata><tw-passagedata pid="20" name="go meet people" tags="" position="420,1339" size="100,100">Hmm I don&#39;t know anyone. I used to live outside the city so all my old friends are out there. Maybe I should look for a support group I heard about one from my friend back home that they found it so helpful 
 
 [[find a support group]]</tw-passagedata><tw-passagedata pid="21" name="find a support group" tags="" position="543,1397" size="100,100">Look this one says &lt;div class=&quot;psg&quot;&gt;Youth LGBTQ+ support group every other day at Oakdale Community Centre.&lt;/div&gt;
 
-[[check it out]]</tw-passagedata><tw-passagedata pid="22" name="check it out" tags="" position="394,1504" size="100,100">I&#39;m kinda nervous it says it starts at 2 and its already 11. Maybe I just shouldn&#39;t go this is a bad idea. It so is I told myself I needed to find work so I should go do that and then maybe I&#39;ll reconsider going 
+[[check it out]]</tw-passagedata><tw-passagedata pid="22" name="check it out" tags="" position="394,1504" size="100,100">I&#39;m kinda nervous it says it starts at 2 and its already 11. Maybe I just shouldn&#39;t go this is a bad idea. It so is I told myself I needed to find work so I should go do that and then maybe I&#39;ll reconsider going. [(set: $group to true)]
 
 [[go find that job]] 
-</tw-passagedata><tw-passagedata pid="23" name="pick up extra shift" tags="" position="501,2052" size="100,100">I told myself I would go and pick up another shift another time 
+</tw-passagedata><tw-passagedata pid="23" name="pick up extra shift" tags="" position="471,2122" size="100,100">I told myself I would go and pick up another shift another time 
 
-[[go you already decided don&#39;t change your mind]] or maybe just [[work]]</tw-passagedata><tw-passagedata pid="24" name="go to community centre" tags="" position="770,2225" size="100,100">People are already sitting in a circle it looks like people all my age. I&#39;m gonna [[go in and check it out]]. </tw-passagedata><tw-passagedata pid="25" name="work" tags="" position="501,2202" size="100,100">Okay I&#39;m going to work and then in two days I&#39;ll go. It&#39;s the perfect plan make a bit more money before I start meeting people and plus I&#39;m meeting people through my job so I guess that counts 
+[[go you already decided don&#39;t change your mind]] or maybe just [[work]]</tw-passagedata><tw-passagedata pid="24" name="go to community centre" tags="" position="770,2225" size="100,100">People are already sitting in a circle it looks like people all my age. I&#39;m gonna [[go in and check it out]]. </tw-passagedata><tw-passagedata pid="25" name="work" tags="" position="481,2311" size="100,100">Okay I&#39;m going to work and then in two days I&#39;ll go. It&#39;s the perfect plan make a bit more money before I start meeting people and plus I&#39;m meeting people through my job so I guess that counts 
 
 [[go work and then meeting-&gt;go you already decided don&#39;t change your mind]] </tw-passagedata><tw-passagedata pid="26" name="go in and check it out" tags="" position="770,2374" size="100,100">That went really well the leader asked everyone to share a bit and even I had the guts to share. 
 
@@ -291,7 +290,7 @@ Your here I can&#39;t believe it
 
 &quot;Yes I am here I&#39;ve realized a lot since you left like that I made the wrong decision when you came out to me and I am not leaving again. I promise&quot;
 
-[[doctor enters]] </tw-passagedata><tw-passagedata pid="52" name="Nah I can&#39;t I&#39;m not ready for this" tags="" position="621,1849" size="100,100">Maybe I should just pick up an extra shift at the pet store the manager always says there is room to work extra. I&#39;m supposed to be saving money and I can&#39;t do that if I&#39;m not making any. 
+[[doctor enters]] </tw-passagedata><tw-passagedata pid="52" name="Nah I can&#39;t I&#39;m not ready for this" tags="" position="567,1828" size="100,100">Maybe I should just pick up an extra shift at the pet store the manager always says there is room to work extra. I&#39;m supposed to be saving money and I can&#39;t do that if I&#39;m not making any. 
 
 [[pick up extra shift]]
 [[go you already decided don&#39;t change your mind]]</tw-passagedata><tw-passagedata pid="53" name="I think I hear them coming to prep me" tags="" position="872,3933" size="100,100">&quot;Hi Daniel we are here to take you down to pre op. Are you ready?&quot;
@@ -304,7 +303,7 @@ Ya I am bye Kyle
 54
 (print: &quot;&lt;script&gt;$(&#39;html&#39;).addClass(&#39;&quot; + (passage:)&#39;s
 tags.join(&#39; &#39;) + &quot;&#39;\)&lt;/script&gt;&quot;)
-] }</tw-passagedata><tw-passagedata pid="55" name="got it" tags="" position="339,150.5" size="100,100">&lt;img src=&quot;Images/name.jpg&quot; alt=&quot;ASGN&quot; height=&quot;30&quot; width &quot;25&quot;&gt;
+] }</tw-passagedata><tw-passagedata pid="55" name="got it" tags="" position="339,150.5" size="100,100">&lt;img src=&quot;Images/name.jpg&quot; alt=&quot;ASGN&quot; height=&quot;350&quot; width &quot;250&quot;&gt;
 
 
 by Emily Zaltz 
@@ -315,7 +314,12 @@ by Emily Zaltz
 
 All Other Images are from Uplash and are licensed 
 
-https://images.unsplash.com/photo-1580281657702-257584239a55?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2000&amp;q=80</tw-passagedata></tw-storydata>
+https://images.unsplash.com/photo-1580281657702-257584239a55?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2000&amp;q=80</tw-passagedata><tw-passagedata pid="58" name="check out the group I already found" tags="" position="238,2210" size="100,100">I&#39;m kinda nervous I&#39;m not sure what it&#39;s gonna be like maybe I shouldn&#39;t go
+
+[[go you already decided don&#39;t change your mind]]
+[[Nah I can&#39;t I&#39;m not ready for this]]</tw-passagedata><tw-passagedata pid="59" name="find one" tags="" position="41,2233" size="100,100">Look this one says &lt;div class=&quot;psg&quot;&gt;Youth LGBTQ+ support group every other day at Oakdale Community Centre.&lt;/div&gt;
+
+[[check it out tomorrow]]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
